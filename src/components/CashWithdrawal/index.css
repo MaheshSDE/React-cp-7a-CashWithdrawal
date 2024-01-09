@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+  background-size: cover;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*  align-items: center; */
+  padding: 30px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #150b3e;
+  height: 75vh;
+  width: 30%;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.letter-s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  width: 22%;
+  height: 90px;
+  color: #7c3aed;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #585076;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  color: #d5d2db;
+}
+.rupees {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #585076;
+  padding-bottom: 20px;
+}
+.withdraw-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+  font-weight: 400;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #585076;
+}
+.unOrderList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

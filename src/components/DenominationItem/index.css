@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.button {
+  font-family: 'Roboto';
+  font-size: 25px;
+  width: 150px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c4c4c4;
+  background-color: #585076;
+  color: #d4d2db;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
